@@ -8,41 +8,17 @@ Page({
     top:"4%",
   },
   fanhuidj:function(){
-    wx.reLaunch({
-       url: "../index/index"
-     })
- },
+    wx.navigateTo({
+      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
+    })
+  },
 
  zhuyefanhuidj:function(){
   wx.reLaunch({
      url: "../index/index"
    })
-},
-detailsawTwodj:function(){
-  wx.navigateTo({
-    url: "../detailsawTwo/detailsawTwo"
-  })
-},
-detailsawThreedj:function(){
-  wx.navigateTo({
-    url: "../detailsawThree/detailsawThree"
-  })
-},
-detailsawFivesdj:function(){
-  wx.navigateTo({
-    url: "../detailsawFives/detailsawFives"
-  })
-},
-detailsawSixdj:function(){
-  wx.navigateTo({
-    url: "../detailsawSix/detailsawSix"
-  })
-},
-detailsawSevendj:function(){
-  wx.navigateTo({
-    url: "../detailsawSeven/detailsawSeven"
-  })
-},
+  },
+ 
   /**
    * 生命周期函数--监听页面加载
    */

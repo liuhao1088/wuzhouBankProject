@@ -33,7 +33,7 @@
 
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSixdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img12.360buyimg.com/ddimg/jfs/t1/129749/34/11185/64544/5f73f70dE26385bf6/4529694457fb6f5d.png">
       </image>
@@ -41,7 +41,7 @@
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSevendj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img10.360buyimg.com/ddimg/jfs/t1/133229/36/11361/51940/5f73f720Ebf221c8c/14a1443cc733a62b.png">
       </image>
