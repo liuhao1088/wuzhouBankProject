@@ -1,17 +1,19 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/smartStreamingSeries/smartStreamingSeries",
+    "pages/detailsawTwo/detailsawTwo",
     "pages/detailsazOne/detailsazOne",
     "pages/truckReconrderSeries/truckReconrderSeries",
     "pages/hiddenRecorderSeries/hiddenRecorderSeries",
-    "pages/smartStreamingSeries/smartStreamingSeries",
+    
     "pages/hdRecorderSeries/hdRecorderSeries",
     "pages/detailsaEleven/detailsaEleven",
     "pages/detailsaxThree/detailsaxThree",
     "pages/detailsaxOne/detailsaxOne",
     "pages/detailsaxTwo/detailsaxTwo",
     "pages/detailsazTwo/detailsazTwo",
-    "pages/detailsawTwo/detailsawTwo",
+   
     "pages/detailsawThree/detailsawThree",
     "pages/detailsawFives/detailsawFives",
     "pages/detailsawSix/detailsawSix",

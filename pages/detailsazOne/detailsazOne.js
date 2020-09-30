@@ -6,6 +6,7 @@ Page({
    */
   data: {
     top:"4%",
+    height:""
   },
   fanhuidj:function(){
     wx.navigateTo({
@@ -24,14 +25,17 @@ Page({
    */
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
+    var maxHeight  = windowHeight+200;
+    console.log(maxHeight);
     if(windowHeight>800){
       this.setData({
-        top: "6%"
+        top: "6%",
+        height:maxHeight+"px"
       })
     }else{
       this.setData({
-        top: "4%"
+        top: "4%",
+        height:maxHeight+"px"
       })
     }
   },

@@ -1,9 +1,7 @@
 <view class="container">
   <view class="tag_maxdiv" style="width: 100%;">
     <view class="img" style="height:{{height}};">
-      <!-- <image mode="widthFix"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/113410/17/19132/1099062/5f74019dE46a70bd5/d878c3708f29ff7b.png">
-      </image> -->
+      
       <view class="head"></view>
       <view class="video_div">
         <view class="video_nr">
