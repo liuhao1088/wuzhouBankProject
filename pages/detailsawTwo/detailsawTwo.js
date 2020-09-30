@@ -8,21 +8,17 @@ Page({
     top:"4%",
   },
   fanhuidj:function(){
-    wx.reLaunch({
-       url: "../index/index"
-     })
- },
+    wx.navigateTo({
+      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
+    })
+  },
 
  zhuyefanhuidj:function(){
   wx.reLaunch({
      url: "../index/index"
    })
-},
-detailsawTwodj:function(){
-  wx.navigateTo({
-    url: "../detailsawTwo/detailsawTwo"
-  })
-},
+  },
+ 
   /**
    * 生命周期函数--监听页面加载
    */
