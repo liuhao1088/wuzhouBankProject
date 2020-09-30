@@ -10,7 +10,7 @@
  
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsaxThreedj">
+    <view class="img_div" bindtap="detailsaxThreedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img10.360buyimg.com/ddimg/jfs/t1/125372/29/13888/80542/5f73f138E5285c670/ef48da618c6db54e.png">
       </image>
