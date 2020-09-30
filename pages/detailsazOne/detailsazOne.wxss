@@ -44,6 +44,7 @@ image {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 102;
 }
 
 .nav_maxdiv {

@@ -6,7 +6,7 @@
       </image>
       <view class="video_div">
         <video style="width: 100%;height: 100%;" id="myVideo"
-        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E9%BC%8E%E6%98%93.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1600052178;1915412178&q-key-time=1600052178;1915412178&q-header-list=&q-url-param-list=&q-signature=837aeca2ec6f46ee2fcea19d0ee8bf5f07485faf"
+        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CX1-2.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1601450425;33137450425&q-key-time=1601450425;33137450425&q-header-list=&q-url-param-list=&q-signature=51878c77da061868c391e066da00514c77b7f1f6"
         binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
         picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
         bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
