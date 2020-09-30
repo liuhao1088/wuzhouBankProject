@@ -20,6 +20,11 @@ image {
   height: 100%;
 }
 
+.yxzc_div{
+  width: 100%;
+  background-color: #202020;
+  float: left;
+}
 
 /* 返回 */
 
