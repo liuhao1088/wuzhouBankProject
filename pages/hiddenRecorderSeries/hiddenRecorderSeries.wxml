@@ -24,7 +24,7 @@
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawFivesdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/154023/14/1131/62220/5f73f6fbEa75e0a81/e69b0baa6972392a.png">
       </image>
