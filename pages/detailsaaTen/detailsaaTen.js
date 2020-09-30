@@ -8,27 +8,17 @@ Page({
     top:"4%",
   },
   fanhuidj:function(){
-    wx.reLaunch({
-       url: "../index/index"
-     })
- },
+    wx.navigateTo({
+      url: "../truckReconrderSeries/truckReconrderSeries"
+    })
+  },
 
  zhuyefanhuidj:function(){
   wx.reLaunch({
      url: "../index/index"
    })
-},
-detailsaaTendj:function(){
-  wx.navigateTo({
-    url: "../detailsaaTen/detailsaaTen"
-  })
-},
-detailsawOnedj:function(){
-  wx.navigateTo({
-    url: "../detailsawOne/detailsawOne"
-  })
-},
-
+  },
+ 
   /**
    * 生命周期函数--监听页面加载
    */
