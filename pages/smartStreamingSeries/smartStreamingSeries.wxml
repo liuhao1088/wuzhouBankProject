@@ -1,0 +1,66 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width: 100%;">
+    <view class="img">
+      <image mode="widthFix"
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/122432/39/13866/625758/5f73f2ebE994e7bdb/3bb81afd495f0459.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="detailsaxOnedj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/133244/23/11280/75498/5f73f2fdE438a7c29/3898559135f12d66.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsaxTwodj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/111823/8/18981/75092/5f73f311E278c9dd1/cc0030900e9dd6c2.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsazTwodj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/152817/11/1134/44318/5f73f321Ee1473cd7/eb378985e3361b10.png">
+      </image>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

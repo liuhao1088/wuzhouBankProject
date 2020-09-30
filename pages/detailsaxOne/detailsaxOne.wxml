@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width: 100%;">
+    <view class="img">
+      <image mode="widthFix"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/113410/17/19132/1099062/5f74019dE46a70bd5/d878c3708f29ff7b.png">
+      </image>
+      <view class="video_div">
+        <video style="width: 100%;height: 100%;" id="myVideo"
+        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E9%BC%8E%E6%98%93.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1600052178;1915412178&q-key-time=1600052178;1915412178&q-header-list=&q-url-param-list=&q-signature=837aeca2ec6f46ee2fcea19d0ee8bf5f07485faf"
+        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
+        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

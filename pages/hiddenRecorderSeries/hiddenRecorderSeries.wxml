@@ -1,0 +1,78 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width: 100%;">
+    <view class="img">
+      <image mode="widthFix"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/151994/33/1130/819185/5f73f6d7E9528098b/ab4af2925b490e74.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/118243/21/18991/53373/5f73f6c4E2eb8a474/e73bbd508ef933c8.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/149453/10/9577/73862/5f73f6e8E6653e6be/a4d16bf6f0be3c11.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/154023/14/1131/62220/5f73f6fbEa75e0a81/e69b0baa6972392a.png">
+      </image>
+    </view>
+  </view>
+
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/129749/34/11185/64544/5f73f70dE26385bf6/4529694457fb6f5d.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/133229/36/11361/51940/5f73f720Ebf221c8c/14a1443cc733a62b.png">
+      </image>
+    </view>
+  </view>
+
+
+
+
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

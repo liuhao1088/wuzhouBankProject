@@ -1,0 +1,71 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width:100%;">
+    <view class="lbt_div">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" 
+        style="height:100%;">
+        <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
+          <image mode="widthFix" src="{{item}}" class="slide-image" />
+        </swiper-item>
+
+      </swiper>
+    </view>
+  </view>
+
+  <view class="tab_div" style="display: black;">
+    <view class="tab_maxdiv" bindtap="hdRecorderSeriesdj">
+      <view class="tab">
+        <view class="tab_iocn">
+          <image mode="widthFix" src="https://img10.360buyimg.com/ddimg/jfs/t1/141775/16/9642/4708/5f73e9dbE29bdd92f/35ec7dbcfccfb2cc.png"></image>
+        </view>
+        <view class="tab_nr">高清记录仪系列</view>
+        <view class="tab_nr2">HD recorder series</view>
+      </view>
+    </view>
+
+    <view class="tab_maxdiv" bindtap="smartStreamingSeriesdj">
+      <view class="tab">
+        <view class="tab_iocn">
+          <image mode="widthFix" src="https://img11.360buyimg.com/ddimg/jfs/t1/148556/35/9631/4957/5f73e9c9Ef4ae0f2a/d1960a732f76340b.png"></image>
+        </view>
+        <view class="tab_nr">智能流媒体系列</view>
+        <view class="tab_nr2">Smart streaming series</view>
+      </view>
+    </view>
+
+    <view class="tab_maxdiv" bindtap="hiddenRecorderSeriesdj">
+      <view class="tab">
+        <view class="tab_iocn">
+          <image mode="widthFix" src="https://img13.360buyimg.com/ddimg/jfs/t1/139824/35/9465/5674/5f73ea7aE49840fd1/a611c771915c610c.png"></image>
+        </view>
+        <view class="tab_nr">隐藏式记录仪系列</view>
+        <view class="tab_nr2">Hidden recorder Series</view>
+      </view>
+    </view>
+
+    <view class="tab_maxdiv" bindtap="truckReconrderSeriesdj">
+      <view class="tab">
+        <view class="tab_iocn">
+          <image mode="widthFix" src="https://img14.360buyimg.com/ddimg/jfs/t1/120665/7/14029/6060/5f73eb3bE1a0bcf2f/337fc39e717ac39a.png"></image>
+        </view>
+        <view class="tab_nr">货车记录仪系列</view>
+        <view class="tab_nr2">Truck Reconrder Series</view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="tag_maxdiv" style="margin-top: 0rpx;" wx:for='{{imgArr}}' wx:key="id">
+    <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
+      src="{{item}}" data-index='{{index}}' bindtap='previewImg'>
+    </image>
+  </view>
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+</view>
