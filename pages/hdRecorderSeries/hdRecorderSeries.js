@@ -18,18 +18,14 @@ Page({
      url: "../index/index"
    })
   },
-  detailsaElevendj:function(){
-    wx.navigateTo({
-      url: "../detailsaEleven/detailsaEleven"
-    })
-  },
+ 
   detailsaxThreedj:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../detailsaxThree/detailsaxThree"
     })
   },
   detailsazOnedj:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../detailsazOne/detailsazOne"
     })
   },

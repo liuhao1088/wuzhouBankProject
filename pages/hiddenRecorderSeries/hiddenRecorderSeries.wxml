@@ -8,7 +8,15 @@
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawTwodj">
+    <view class="img_div"  bindtap="detailsawOnedj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/129805/30/11202/63029/5f73f7f2E4d8d88d1/f43b830f9cc44014.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawTwodj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img10.360buyimg.com/ddimg/jfs/t1/118243/21/18991/53373/5f73f6c4E2eb8a474/e73bbd508ef933c8.png">
       </image>

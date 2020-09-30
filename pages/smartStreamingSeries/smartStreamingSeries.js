@@ -8,17 +8,17 @@ Page({
     top:"4%",
   },
   detailsaxOnedj:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../detailsaxOne/detailsaxOne"
     })
  },
  detailsaxTwodj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsaxTwo/detailsaxTwo"
   })
 },
 detailsazTwodj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsazTwo/detailsazTwo"
   })
 },

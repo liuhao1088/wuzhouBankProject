@@ -18,28 +18,35 @@ Page({
      url: "../index/index"
    })
 },
+
+detailsawOnedj:function(){
+  wx.redirectTo({
+    url: "../detailsawOne/detailsawOne"
+  })
+},
+
 detailsawTwodj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsawTwo/detailsawTwo"
   })
 },
 detailsawThreedj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsawThree/detailsawThree"
   })
 },
 detailsawFivesdj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsawFives/detailsawFives"
   })
 },
 detailsawSixdj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsawSix/detailsawSix"
   })
 },
 detailsawSevendj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsawSeven/detailsawSeven"
   })
 },

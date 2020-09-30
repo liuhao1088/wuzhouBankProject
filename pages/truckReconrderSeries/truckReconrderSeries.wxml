@@ -16,12 +16,14 @@
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawOnedj">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsaElevendj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/129805/30/11202/63029/5f73f7f2E4d8d88d1/f43b830f9cc44014.png">
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/124932/15/14069/78872/5f73eff3E573cdc03/5955552a464d759a.png">
       </image>
     </view>
   </view>
+
+ 
 
 
 

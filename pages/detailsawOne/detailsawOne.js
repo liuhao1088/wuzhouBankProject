@@ -9,7 +9,7 @@ Page({
   },
   fanhuidj:function(){
     wx.navigateTo({
-      url: "../truckReconrderSeries/truckReconrderSeries"
+      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
     })
   },
 

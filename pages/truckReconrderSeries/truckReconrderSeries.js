@@ -19,15 +19,17 @@ Page({
    })
 },
 detailsaaTendj:function(){
-  wx.navigateTo({
+  wx.redirectTo({
     url: "../detailsaaTen/detailsaaTen"
   })
 },
-detailsawOnedj:function(){
-  wx.navigateTo({
-    url: "../detailsawOne/detailsawOne"
+detailsaElevendj:function(){
+  wx.redirectTo({
+    url: "../detailsaEleven/detailsaEleven"
   })
 },
+
+
 
   /**
    * 生命周期函数--监听页面加载
