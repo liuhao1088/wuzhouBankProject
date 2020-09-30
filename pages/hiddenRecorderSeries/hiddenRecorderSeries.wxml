@@ -16,7 +16,7 @@
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="">
+    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawThreedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img12.360buyimg.com/ddimg/jfs/t1/149453/10/9577/73862/5f73f6e8E6653e6be/a4d16bf6f0be3c11.png">
       </image>
