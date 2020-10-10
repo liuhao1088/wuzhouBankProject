@@ -29,7 +29,7 @@ page{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40rpx;
+  margin-top: 60rpx;
 }
 
 .video_nr {
@@ -46,8 +46,8 @@ page{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40rpx;
-  padding-bottom: 40rpx;
+  margin-top: 60rpx;
+  padding-bottom: 70rpx;
 }
 
 .img_maxdiv {

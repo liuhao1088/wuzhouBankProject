@@ -1,60 +1,63 @@
-
-page {
-  width: 100%;
-  height: 100%;
-  
+page{
+  background-color: #03B2F1;
 }
 
-.tag_maxdiv {
-  width: 90%;
-  float: left;
+.container {
+  background-color: unset;
 }
+
 
 .img {
   width: 100%;
-  background: url('https://img13.360buyimg.com/ddimg/jfs/t1/113314/3/20067/671358/5f816092Ee2411201/968de6bd477d99f1.jpg') no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background: url('https://img14.360buyimg.com/ddimg/jfs/t1/111973/27/19806/490686/5f817be2E5ee56833/d285b8be3d87bea0.png') no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
   border: 0rpx solid red;
-  
+}
+
+.head_div {
+  width: 100%;
+  float: left;
+  border: 0rpx solid red;
+}
+
+.video_div {
+  width: 100%;
+  height: 380rpx;
+  float: left;
+  border: 0rpx solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.video_nr {
+  width: 90%;
+  height: 100%;
+  float: left;
 }
 
 .img_div {
   width: 100%;
-  border: 0rpx white solid;
-  border-radius: 12rpx;
-  margin-top: 40rpx;
+  float: left;
+  border: 0rpx solid blue;
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+  padding-bottom: 70rpx;
+}
+
+.img_maxdiv {
+  width: 90%;
+  border: 0rpx solid red;
 }
 
 image {
-  width: 100%;
   height: 100%;
-}
-
-.yxzc_div {
   width: 100%;
-  float: left;
-}
-
-/* 视频 */
-.head{
-  width: 100%;
-  height: 43%;
-  border: 0rpx solid red;
-  float: left;
-}
-
-.video_div {
-  width: 95%;
-  border: 0rpx solid red;
-  float: left;
-  margin-left: 20rpx;
-}
-
-.video_nr{
-  width: 90%;
-  height: 100%;
-  margin: auto;
 }
 
 /* 返回 */
