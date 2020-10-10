@@ -1,25 +1,13 @@
-// pages/hdRecorderSeries/hdRecorderSeries.js
+// pages/test/test.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-    height:""
-  },
-  fanhuidj:function(){
-    wx.redirectTo({
-      url: "../hdRecorderSeries/hdRecorderSeries"
-    })
+    height:"",
   },
 
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-  },
- 
   /**
    * 生命周期函数--监听页面加载
    */
@@ -27,17 +15,18 @@ Page({
     var windowHeight = wx.getSystemInfoSync().windowHeight;
     var maxHeight  = windowHeight;
     console.log(maxHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%",
-        height:maxHeight+"px"
-      })
-    }else{
-      this.setData({
-        top: "4%",
-        height:maxHeight+"px"
-      })
-    }
+    this.setData({
+      height:maxHeight+"px",
+    })
+    // if(windowHeight>800){
+    //   this.setData({
+    //     height:maxHeight+"px",
+    //   })
+    // }else{
+    //   this.setData({
+    //     height:maxHeight+"px",
+    //   })
+    // }
   },
 
   /**
@@ -51,13 +40,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    wx.showShareMenu({
 
-      withShareTicket:true,
-      
-      menus:['shareAppMessage','shareTimeline']
-      
-      })
   },
 
   /**

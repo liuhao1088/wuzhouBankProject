@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/test/test",
     "pages/smartStreamingSeries/smartStreamingSeries",
     "pages/detailsawTwo/detailsawTwo",
     "pages/detailsazOne/detailsazOne",
@@ -22,7 +23,6 @@
     "pages/detailsawOne/detailsawOne"
     
     
-   
     
   ],
   "window":{
