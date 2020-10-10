@@ -44,7 +44,7 @@
   
 </view>
 
-<view class="nav_div" style="top: {{top}};">
+<!-- <view class="nav_div" style="top: {{top}};">
   <view class="nav_maxdiv">
     <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
       <view class="iocn">
@@ -57,4 +57,4 @@
       <van-icon name="wap-home-o" />
     </view>
   </view>
-</view>
+</view> -->
