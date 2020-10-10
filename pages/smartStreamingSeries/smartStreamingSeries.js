@@ -7,6 +7,12 @@ Page({
   data: {
     top:"4%",
   },
+
+  detailsaxThreedj:function(){
+    wx.redirectTo({
+      url: "../detailsaxThree/detailsaxThree"
+    })
+  },
   detailsaxOnedj:function(){
     wx.redirectTo({
       url: "../detailsaxOne/detailsaxOne"
@@ -17,11 +23,7 @@ Page({
     url: "../detailsaxTwo/detailsaxTwo"
   })
 },
-detailsazTwodj:function(){
-  wx.redirectTo({
-    url: "../detailsazTwo/detailsazTwo"
-  })
-},
+
   
   fanhuidj:function(){
     wx.reLaunch({

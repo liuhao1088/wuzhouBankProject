@@ -9,7 +9,7 @@ Page({
   },
   fanhuidj:function(){
     wx.navigateTo({
-      url: "../hdRecorderSeries/hdRecorderSeries"
+      url: "../smartStreamingSeries/smartStreamingSeries"
     })
   },
 

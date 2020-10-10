@@ -11,7 +11,7 @@ Page({
   },
   fanhuidj:function(){
     wx.navigateTo({
-      url: "../smartStreamingSeries/smartStreamingSeries"
+      url: "../hdRecorderSeries/hdRecorderSeries"
     })
   },
 

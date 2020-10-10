@@ -13,17 +13,19 @@ Page({
      })
   },
 
+  detailsazTwodj:function(){
+    wx.redirectTo({
+      url: "../detailsazTwo/detailsazTwo"
+    })
+  },
+
  zhuyefanhuidj:function(){
   wx.reLaunch({
      url: "../index/index"
    })
   },
  
-  detailsaxThreedj:function(){
-    wx.redirectTo({
-      url: "../detailsaxThree/detailsaxThree"
-    })
-  },
+  
   detailsazOnedj:function(){
     wx.redirectTo({
       url: "../detailsazOne/detailsazOne"

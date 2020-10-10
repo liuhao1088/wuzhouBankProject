@@ -12,7 +12,7 @@
   width: 100%;
   border:0rpx white solid;
   border-radius: 12rpx;
-  margin-top: 40rpx;
+  
 }
 
 image {
