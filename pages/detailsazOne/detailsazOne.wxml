@@ -2,7 +2,7 @@
   <view class="tag_maxdiv" style="width: 100%;">
     <view class="img" style="height:{{height}};">
       <view class="head"></view>
-      <view class="video_div">
+      <view class="video_div" style="height: {{videoHeight}};">
         <view class="video_nr">
           <video style="width: 100%;height: 100%;" id="myVideo"
         src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CZ1%E5%A4%96%E8%A7%82.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1601450307;33137450307&q-key-time=1601450307;33137450307&q-header-list=&q-url-param-list=&q-signature=f5e0d8f97b129e81efe2415952a35b206fa9ec2d"

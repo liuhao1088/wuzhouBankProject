@@ -6,7 +6,8 @@ Page({
    */
   data: {
     top:"4%",
-    height:""
+    height:"",
+    videoHeight:""
   },
   fanhuidj:function(){
     wx.navigateTo({
@@ -30,12 +31,14 @@ Page({
     if(windowHeight>800){
       this.setData({
         top: "6%",
-        height:maxHeight+"px"
+        height:maxHeight+"px",
+        videoHeight:"430rpx"
       })
     }else{
       this.setData({
         top: "4%",
-        height:maxHeight+"px"
+        height:maxHeight+"px",
+        videoHeight:"380rpx"
       })
     }
   },
