@@ -10,7 +10,7 @@ Page({
     videoHeight:""
   },
   fanhuidj:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../hdRecorderSeries/hdRecorderSeries"
     })
   },

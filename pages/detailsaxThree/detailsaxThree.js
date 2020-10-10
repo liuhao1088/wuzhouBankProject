@@ -8,7 +8,7 @@ Page({
     top:"4%",
   },
   fanhuidj:function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: "../smartStreamingSeries/smartStreamingSeries"
     })
   },
