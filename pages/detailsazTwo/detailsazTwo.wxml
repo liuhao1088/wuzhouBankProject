@@ -5,7 +5,7 @@
         src="https://img10.360buyimg.com/ddimg/jfs/t1/127626/8/13831/1145509/5f740304E7ae059bf/f170f9201e403f42.png">
       </image> -->
       <view class="head"></view>
-      <view class="video_div">
+      <view class="video_div" style="height: {{videoHeight}};">
         <view class="video_nr">
           <video style="width: 100%;height: 100%;" id="myVideo"
         src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CZ2.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1601447023;2915447023&q-key-time=1601447023;2915447023&q-header-list=&q-url-param-list=&q-signature=d1d11a76a514bff53d09e7b94d6709e75e05a070"

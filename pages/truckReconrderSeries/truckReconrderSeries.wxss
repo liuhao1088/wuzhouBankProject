@@ -13,6 +13,7 @@
   border:0rpx white solid;
   border-radius: 12rpx;
   margin-top: 40rpx;
+  
 }
 
 image {
@@ -68,4 +69,5 @@ image {
   height: 50%;
   margin-top: 16rpx;
   border: 1rpx solid #83919D;
+  
 }

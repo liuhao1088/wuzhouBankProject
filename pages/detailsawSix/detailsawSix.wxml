@@ -1,11 +1,7 @@
 <view class="container">
-  <view class="tag_maxdiv" style="width: 100%;">
-    <view class="img">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/126219/22/13940/640923/5f742b3fEef30bad0/ed82255ba139b59c.png">
+  <image mode="widthFix"
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/128951/25/14545/633506/5f81651eE4c598f28/d98d2b14a027db21.jpg">
       </image>
-    </view>
-  </view>
 
 
 

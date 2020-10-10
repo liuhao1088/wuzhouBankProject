@@ -12,7 +12,7 @@ page {
 
 .img {
   width: 100%;
-  background: url('https://img10.360buyimg.com/ddimg/jfs/t1/127626/8/13831/1145509/5f740304E7ae059bf/f170f9201e403f42.png') no-repeat;
+  background: url('https://img14.360buyimg.com/ddimg/jfs/t1/136188/35/11930/550298/5f815effE687e5d94/c2d3b37e07fbbdb1.jpg') no-repeat;
   background-size:100% 100%;
   -moz-background-size:100% 100%;
   border: 0rpx solid red;
@@ -40,21 +40,20 @@ image {
 /* 视频 */
 .head{
   width: 100%;
-  height: 33%;
+  height: 38%;
   border: 0rpx solid red;
   float: left;
 }
 
 .video_div {
   width: 100%;
-  height: 430rpx;
   border: 0rpx solid red;
   float: left;
 }
 
 .video_nr{
   width: 90%;
-  height: 430rpx;
+  height: 100%;
   margin: auto;
 }
 

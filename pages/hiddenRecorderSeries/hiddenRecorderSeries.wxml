@@ -2,7 +2,7 @@
   <view class="tag_maxdiv" style="width: 100%;">
     <view class="img">
       <image mode="widthFix"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/151994/33/1130/819185/5f73f6d7E9528098b/ab4af2925b490e74.png">
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/120557/30/14618/1183841/5f815f9bE0a8991ba/13e79cb5eba5427b.png">
       </image>
     </view>
   </view>
@@ -10,7 +10,7 @@
   <view class="tag_maxdiv">
     <view class="img_div"  bindtap="detailsawOnedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/129805/30/11202/63029/5f73f7f2E4d8d88d1/f43b830f9cc44014.png">
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/140467/29/10488/64565/5f815fb0Ec0ca3787/a8d0d5828afe14a9.png">
       </image>
     </view>
   </view>
@@ -18,7 +18,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawTwodj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/118243/21/18991/53373/5f73f6c4E2eb8a474/e73bbd508ef933c8.png">
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/126821/6/14588/55121/5f815fc3Eaa17bfd8/ed210455d2fee0d5.png">
       </image>
     </view>
   </view>
@@ -26,7 +26,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawThreedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/149453/10/9577/73862/5f73f6e8E6653e6be/a4d16bf6f0be3c11.png">
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/127222/4/14642/75515/5f815fd6E2cefa267/0b67af41605a25ee.png">
       </image>
     </view>
   </view>
@@ -34,7 +34,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawFivesdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/154023/14/1131/62220/5f73f6fbEa75e0a81/e69b0baa6972392a.png">
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/113249/22/19913/64132/5f815fe8E96379edb/aabf565452c72bdb.png">
       </image>
     </view>
   </view>
@@ -43,7 +43,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSixdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/129749/34/11185/64544/5f73f70dE26385bf6/4529694457fb6f5d.png">
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/134790/7/11923/66382/5f815ffdE28a13f59/8e4e43efefd61404.png">
       </image>
     </view>
   </view>
@@ -51,7 +51,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSevendj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/133229/36/11361/51940/5f73f720Ebf221c8c/14a1443cc733a62b.png">
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/153389/26/1859/53458/5f816014E5d64e30e/bd7631b09a5a512d.png">
       </image>
     </view>
   </view>
