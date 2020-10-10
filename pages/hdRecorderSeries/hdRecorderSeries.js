@@ -14,7 +14,7 @@ Page({
   },
 
   detailsazTwodj:function(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: "../detailsazTwo/detailsazTwo"
     })
   },
@@ -27,7 +27,7 @@ Page({
  
   
   detailsazOnedj:function(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: "../detailsazOne/detailsazOne"
     })
   },

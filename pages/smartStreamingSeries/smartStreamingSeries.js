@@ -9,17 +9,17 @@ Page({
   },
 
   detailsaxThreedj:function(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: "../detailsaxThree/detailsaxThree"
     })
   },
   detailsaxOnedj:function(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: "../detailsaxOne/detailsaxOne"
     })
  },
  detailsaxTwodj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsaxTwo/detailsaxTwo"
   })
 },

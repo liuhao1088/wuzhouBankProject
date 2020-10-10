@@ -20,33 +20,33 @@ Page({
 },
 
 detailsawOnedj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawOne/detailsawOne"
   })
 },
 
 detailsawTwodj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawTwo/detailsawTwo"
   })
 },
 detailsawThreedj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawThree/detailsawThree"
   })
 },
 detailsawFivesdj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawFives/detailsawFives"
   })
 },
 detailsawSixdj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawSix/detailsawSix"
   })
 },
 detailsawSevendj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsawSeven/detailsawSeven"
   })
 },

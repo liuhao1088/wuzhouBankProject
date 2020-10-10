@@ -19,12 +19,12 @@ Page({
    })
 },
 detailsaaTendj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsaaTen/detailsaaTen"
   })
 },
 detailsaElevendj:function(){
-  wx.redirectTo({
+  wx.navigateTo({
     url: "../detailsaEleven/detailsaEleven"
   })
 },
