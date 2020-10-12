@@ -47,7 +47,7 @@ page{
   justify-content: center;
   align-items: center;
   margin-top: 60rpx;
-  padding-bottom: 70rpx;
+  padding-bottom: 20rpx;
 }
 
 .img_maxdiv {

@@ -26,19 +26,18 @@ Page({
    */
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
-    var maxHeight  = windowHeight+200;
+    var maxHeight  = windowHeight;
     console.log(maxHeight);
     if(windowHeight>800){
       this.setData({
         top: "6%",
-        height:maxHeight+"px",
-        videoHeight:"430rpx"
+        height:maxHeight+"px"
+        
       })
     }else{
       this.setData({
         top: "4%",
-        height:maxHeight+"px",
-        videoHeight:"380rpx"
+        height:maxHeight+"px"
       })
     }
   },
