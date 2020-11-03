@@ -11,7 +11,7 @@ Page({
       'https://img10.360buyimg.com/ddimg/jfs/t1/118444/33/19054/417237/5f73e147E3e3eb06b/cddb13d6d9d8d851.jpg'
     ],
     imgArr:[
-      'https://ae04.alicdn.com/kf/H1c219d1be8784a94a6350a887718c2b93.jpg'
+      'https://img03.sogoucdn.com/app/a/100540022/2020110310274291016716.png'
     ],
      active: 0,
      indicatorDots: true,
