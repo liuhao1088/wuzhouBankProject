@@ -13,12 +13,6 @@ Page({
     imgArr:[
       'https://img03.sogoucdn.com/app/a/100540022/2020110310274291016716.png'
     ],
-     active: 0,
-     indicatorDots: true,
-     autoplay: true,
-     interval: 3000,
-     duration: 1000,
-     vertical: true
   },
   hdRecorderSeriesdj:function(e){
     wx.navigateTo({

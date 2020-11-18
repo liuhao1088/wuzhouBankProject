@@ -1,28 +1,5 @@
 <view class="container">
   <image mode="widthFix"
-        src="https://dingyue.ws.126.net/2020/1010/217dbe05j00qhzfmz00f9c000qc01jnm.jpg">
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/125978/20/18923/550633/5fb4b931E4906150d/e44987a426789a0d.jpg">
       </image>
-
-
-
-
-
-
-  
-
 </view>
-
-<!-- <view class="nav_div" style="top: {{top}};">
-  <view class="nav_maxdiv">
-    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
-      <view class="iocn">
-        <van-icon name="arrow-left" />
-      </view>
-      <view class="side"></view>
-
-    </view>
-    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
-      <van-icon name="wap-home-o" />
-    </view>
-  </view>
-</view> -->

@@ -2,22 +2,4 @@
   <image mode="widthFix"
     src="https://dingyue.ws.126.net/2020/1010/7261ed62p00qhzjjl00z1c000qc01gum.png">
   </image>
-
 </view>
-
-
-
-<!-- <view class="nav_div" style="top: {{top}};">
-  <view class="nav_maxdiv">
-    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
-      <view class="iocn">
-        <van-icon name="arrow-left" />
-      </view>
-      <view class="side"></view>
-
-    </view>
-    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
-      <van-icon name="wap-home-o" />
-    </view>
-  </view>
-</view> -->

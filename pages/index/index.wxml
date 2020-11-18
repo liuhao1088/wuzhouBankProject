@@ -1,10 +1,10 @@
 <view class="container">
   <view class="tag_maxdiv" style="width:100%;">
     <view class="lbt_div">
-      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+      <swiper indicator-dots autoplay 
         style="height:100%;">
         <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
-          <image mode="widthFix" src="{{item}}" class="slide-image" />
+          <image mode="widthFix" src="{{item}}" />
         </swiper-item>
 
       </swiper>
@@ -14,97 +14,39 @@
   <view class="tag_maxdiv" style="width: 95%;margin-top: 40rpx;padding-bottom: 10rpx;">
     <view class="menu_div">
       <view class="menu"  bindtap="hdRecorderSeriesdj">
-        <!-- <view class="img_div"> -->
         <image mode="widthFix"
           src="https://img13.360buyimg.com/ddimg/jfs/t1/138141/3/10463/81331/5f813272Eaf86de33/7f34c6b0737a6674.png" />
-        <!-- </view> -->
       </view>
 
       <view class="menu" bindtap="smartStreamingSeriesdj">
-        <!-- <view class="img_div"> -->
         <image mode="widthFix"
           src="https://img12.360buyimg.com/ddimg/jfs/t1/154638/9/1938/109949/5f815475Ee7ecfc89/6bf9a4bde42ecf33.png" />
-        <!-- </view> -->
       </view>
     </view>
 
     <view class="menu_div">
       <view class="menu" bindtap="hiddenRecorderSeriesdj">
-        <!-- <view class="img_div"> -->
         <image mode="widthFix"
           src="https://img11.360buyimg.com/ddimg/jfs/t1/122574/4/14473/97101/5f81548fEdde88f3b/3a1fa1a3926be0dd.png" />
-        <!-- </view> -->
       </view>
-
 
       <view class="menu" bindtap="truckReconrderSeriesdj">
-        <!-- <view class="img_div"> -->
         <image mode="widthFix"
           src="https://img10.360buyimg.com/ddimg/jfs/t1/116213/4/19696/117707/5f8154afE23e87638/c50fefdbf83c3b39.png" />
-        <!-- </view> -->
       </view>
-
     </view>
-
-
   </view>
 
-  <!-- <view class="tab_div" style="display: black;">
-    <view class="tab_maxdiv" bindtap="hdRecorderSeriesdj">
-      <view class="tab">
-         <view class="tab_iocn">
-          <image mode="widthFix" src="https://img10.360buyimg.com/ddimg/jfs/t1/141775/16/9642/4708/5f73e9dbE29bdd92f/35ec7dbcfccfb2cc.png"></image>
-        </view>
-        <view class="tab_nr">高清记录仪系列</view>
-        <view class="tab_nr2">HD recorder series</view> 
-        <image src=""></image>
-      </view>
-    </view>
-
-    <view class="tab_maxdiv" bindtap="smartStreamingSeriesdj">
-      <view class="tab">
-        <view class="tab_iocn">
-          <image mode="widthFix" src="https://img11.360buyimg.com/ddimg/jfs/t1/148556/35/9631/4957/5f73e9c9Ef4ae0f2a/d1960a732f76340b.png"></image>
-        </view>
-        <view class="tab_nr">智能流媒体系列</view>
-        <view class="tab_nr2">Smart streaming series</view>
-      </view>
-    </view>
-
-    <view class="tab_maxdiv" bindtap="hiddenRecorderSeriesdj">
-      <view class="tab">
-        <view class="tab_iocn">
-          <image mode="widthFix" src="https://img13.360buyimg.com/ddimg/jfs/t1/139824/35/9465/5674/5f73ea7aE49840fd1/a611c771915c610c.png"></image>
-        </view>
-        <view class="tab_nr">隐藏式记录仪系列</view>
-        <view class="tab_nr2">Hidden recorder Series</view>
-      </view>
-    </view>
-
-    <view class="tab_maxdiv" bindtap="truckReconrderSeriesdj">
-      <view class="tab">
-        <view class="tab_iocn">
-          <image mode="widthFix" src="https://img14.360buyimg.com/ddimg/jfs/t1/120665/7/14029/6060/5f73eb3bE1a0bcf2f/337fc39e717ac39a.png"></image>
-        </view>
-        <view class="tab_nr">货车记录仪系列</view>
-        <view class="tab_nr2">Truck Reconrder Series</view>
-      </view>
-    </view>
-
-  </view> -->
-
   <view class="tag_maxdiv" wx:for='{{imgArr}}' wx:key="id">
-    <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; " src="{{item}}" data-index='{{index}}'
+    <image mode="widthFix" style="border-radius: 12rpx; " src="{{item}}" data-index='{{index}}'
       bindtap='previewImg'>
     </image>
   </view>
 
   <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
-    <view class="yxzc_div">
-      <image mode="widthFix" style="width: 100%;height: 100%;"
+      <image mode="widthFix"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/134448/20/14559/65076/5fa0f879E578aad77/e35c27811191771c.jpg">
       </image>
-    </view>
   </view>
 
 </view>

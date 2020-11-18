@@ -26,7 +26,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawThreedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/127222/4/14642/75515/5f815fd6E2cefa267/0b67af41605a25ee.png">
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149676/6/14951/73109/5fb4b8f0E6ba4f342/e1e8bc9593dfba44.png">
       </image>
     </view>
   </view>
@@ -34,7 +34,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawFivesdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/113249/22/19913/64132/5f815fe8E96379edb/aabf565452c72bdb.png">
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/137883/32/15062/62921/5fb4b909E9383a53e/4e85d7ad6f537270.png">
       </image>
     </view>
   </view>
