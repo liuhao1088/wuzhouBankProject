@@ -4,53 +4,13 @@
     </image>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawOnedj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/140467/29/10488/64565/5f815fb0Ec0ca3787/a8d0d5828afe14a9.png">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawTwodj">
-      <image mode="widthFix"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/126821/6/14588/55121/5f815fc3Eaa17bfd8/ed210455d2fee0d5.png">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawThreedj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/149676/6/14951/73109/5fb4b8f0E6ba4f342/e1e8bc9593dfba44.png">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawFivesdj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/137883/32/15062/62921/5fb4b909E9383a53e/4e85d7ad6f537270.png">
+  <view class="tag_maxdiv" wx:for="{{detailsaList}}" wx:key="id">
+    <view class="img_div" id="{{index}}" bindtap="toDetailsa">
+      <image mode="widthFix" src="{{item}}">
       </image>
     </view>
   </view>
 
 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawSixdj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/134790/7/11923/66382/5f815ffdE28a13f59/8e4e43efefd61404.png">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsawSevendj">
-      <image mode="widthFix"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/153389/26/1859/53458/5f816014E5d64e30e/bd7631b09a5a512d.png">
-      </image>
-    </view>
-  </view>
 
 </view>

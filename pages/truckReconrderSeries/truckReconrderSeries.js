@@ -5,47 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
+    detailsaList: [
+      'https://img12.360buyimg.com/ddimg/jfs/t1/120239/32/14684/60423/5f81658dEee6e759e/7ca83d09d4a4a3ab.png',
+      'https://img13.360buyimg.com/ddimg/jfs/t1/124662/36/14565/80724/5f816ae8E8f228a75/e7afd5afaf99cefd.png'
+    ]
   },
-  fanhuidj:function(){
-    wx.reLaunch({
-       url: "../index/index"
-     })
- },
 
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-},
-detailsaaTendj:function(){
-  wx.navigateTo({
-    url: "../detailsaaTen/detailsaaTen"
-  })
-},
-detailsaElevendj:function(){
-  wx.navigateTo({
-    url: "../detailsaEleven/detailsaEleven"
-  })
-},
-
-
+  toDetailsa(event) {
+    let id = event.currentTarget.id;
+    if (id === '0') {
+      wx.navigateTo({
+        url: "/pages/detailsaaTen/detailsaaTen"
+      })
+    } else {
+      wx.navigateTo({
+        url: "/pages/detailsaEleven/detailsaEleven"
+      })
+    }
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%"
-      })
-    }else{
-      this.setData({
-        top: "4%"
-      })
-    }
+
   },
 
   /**
@@ -61,11 +44,11 @@ detailsaElevendj:function(){
   onShow: function () {
     wx.showShareMenu({
 
-      withShareTicket:true,
-      
-      menus:['shareAppMessage','shareTimeline']
-      
-      })
+      withShareTicket: true,
+
+      menus: ['shareAppMessage', 'shareTimeline']
+
+    })
   },
 
   /**

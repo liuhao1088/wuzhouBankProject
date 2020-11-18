@@ -1,31 +1,14 @@
 <view class="container">
   <view class="tag_maxdiv" style="width: 100%;padding-bottom: 60rpx;">
-      <image mode="widthFix"
-        src="https://dingyue.ws.126.net/2020/1010/d611bef3p00qhzgfl00jmc000qc00snm.png">
-      </image>
+    <image mode="widthFix" src="https://dingyue.ws.126.net/2020/1010/d611bef3p00qhzgfl00jmc000qc00snm.png">
+    </image>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsaxOnedj">
-      <image mode="widthFix"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/133020/22/11814/78704/5f815d0eE1010b399/a1ab7a5c2e67e260.png">
+  <view class="tag_maxdiv" wx:for="{{detailsaList}}" wx:key="id">
+    <view class="img_div" id="{{index}}" bindtap="toDetailsa">
+      <image mode="widthFix" src="{{item}}">
       </image>
     </view>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsaxTwodj">
-      <image mode="widthFix"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/132046/37/11879/78219/5f815d22E67b6ac25/744043d33a56fce2.png">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsaxThreedj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/128804/27/14510/82667/5f8156f0E4c2fd9da/aeb8e22bed016787.png">
-      </image>
-    </view>
-  </view>
 </view>
