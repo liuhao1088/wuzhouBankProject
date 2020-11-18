@@ -11,12 +11,6 @@
   height: 550rpx;
 }
 
-/* .yxzc_div{
-  width: 100%;
-  background-color: #262626;
-  float: left;
-} */
-
 /* 选项卡 */
 .menu_div{
   width: 100%;
@@ -27,7 +21,6 @@
   width: calc(100%/2);
   float: left;
   border: 0rpx solid red;
-  
 }
 
 image {
