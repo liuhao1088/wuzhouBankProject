@@ -11,9 +11,7 @@
         <view class="video_nr">
           <video style="width: 100%;height: 100%;" id="myVideo"
         src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CX2%E5%A4%96%E8%A7%82.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602328969;33138328969&q-key-time=1602328969;33138328969&q-header-list=&q-url-param-list=&q-signature=426790f1421ba62142d522be034cc554b97b066b"
-        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
-        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
-        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+        object-fit="cover"></video>
         </view>
       </view>
       
