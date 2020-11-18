@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/detailsazTwo/detailsazTwo",
     "pages/index/index",
     "pages/smartStreamingSeries/smartStreamingSeries",
     "pages/detailsawTwo/detailsawTwo",
@@ -12,7 +13,7 @@
     "pages/detailsaxThree/detailsaxThree",
     "pages/detailsaxOne/detailsaxOne",
     "pages/detailsaxTwo/detailsaxTwo",
-    "pages/detailsazTwo/detailsazTwo",
+    
    
     "pages/detailsawThree/detailsawThree",
     "pages/detailsawFives/detailsawFives",

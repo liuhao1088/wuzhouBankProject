@@ -5,9 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-    height:"",
-    videoHeight:''
+    top:"60%"
   },
   fanhuidj:function(){
     wx.redirectTo({
@@ -29,13 +27,11 @@ Page({
     var maxHeight  = windowHeight;
     if(windowHeight>800){
       this.setData({
-        top: "6%",
-        height:maxHeight+"px"
+        top: "48%"
       })
     }else{
       this.setData({
-        top: "4%",
-        height:maxHeight+"px"
+        top: "60%"
       })
     }
   },
