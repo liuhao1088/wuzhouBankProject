@@ -5,35 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-  },
-  fanhuidj:function(){
-    wx.redirectTo({
-      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
-    })
+    item: {
+      url: 'https://dingyue.ws.126.net/2020/1010/b60272faj00qhzfp600hkc000qc01mym.jpg'
+    },
   },
 
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-  },
- 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%"
-      })
-    }else{
-      this.setData({
-        top: "4%"
-      })
-    }
+
   },
 
   /**
@@ -49,11 +30,11 @@ Page({
   onShow: function () {
     wx.showShareMenu({
 
-      withShareTicket:true,
-      
-      menus:['shareAppMessage','shareTimeline']
-      
-      })
+      withShareTicket: true,
+
+      menus: ['shareAppMessage', 'shareTimeline']
+
+    })
   },
 
   /**

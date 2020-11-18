@@ -1,5 +1,7 @@
-<view class="container">
+<!-- <view class="container">
   <image mode="widthFix"
         src="https://dingyue.ws.126.net/2020/1010/6032399fj00qhzfoi00gyc000qc01mem.jpg">
       </image>
-</view>
+</view> -->
+<import src="/template/myTemplate.wxml"></import>
+<template is="detail" data="{{...item}}"></template>

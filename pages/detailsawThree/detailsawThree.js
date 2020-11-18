@@ -5,35 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-  },
-  fanhuidj:function(){
-    wx.redirectTo({
-      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
-    })
+    item: {
+      url: 'https://img13.360buyimg.com/ddimg/jfs/t1/125978/20/18923/550633/5fb4b931E4906150d/e44987a426789a0d.jpg'
+    },
   },
 
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-  },
  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%"
-      })
-    }else{
-      this.setData({
-        top: "4%"
-      })
-    }
+  
   },
 
   /**

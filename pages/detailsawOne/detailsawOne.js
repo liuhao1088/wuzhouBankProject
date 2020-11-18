@@ -5,35 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-  },
-  fanhuidj:function(){
-    wx.redirectTo({
-      url: "../hiddenRecorderSeries/hiddenRecorderSeries"
-    })
-  },
-
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
+    item: {
+      url: 'https://dingyue.ws.126.net/2020/1010/e198c5b8j00qhzflm00ftc000qc01k1m.jpg'
+    },
   },
  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%"
-      })
-    }else{
-      this.setData({
-        top: "4%"
-      })
-    }
+   
   },
 
   /**
