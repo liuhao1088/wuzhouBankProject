@@ -1,24 +1,14 @@
 <view class="container">
   <view class="tag_maxdiv" style="width: 100%;padding-bottom: 60rpx;">
-      <image mode="widthFix"
-        src="https://dingyue.ws.126.net/2020/1010/1df821d2p00qhzged00g6c000qc00snm.png">
-      </image>
+    <image mode="widthFix" src="https://dingyue.ws.126.net/2020/1010/1df821d2p00qhzged00g6c000qc00snm.png">
+    </image>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsazOnedj">
-      <image mode="widthFix"
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/149345/32/10341/51066/5f815704E00b5b6b3/df3820a2523bac80.png">
+  <view class="tag_maxdiv" wx:for="{{detailsaList}}" wx:key="id">
+    <view class="img_div" id="{{index}}" bindtap="toDetails">
+      <image mode="widthFix" src="{{item}}">
       </image>
     </view>
   </view>
 
- 
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="detailsazTwodj">
-      <image mode="widthFix"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/142855/21/10334/46742/5f815d43E71959b3a/c36d9f9f60a45ae8.png">
-      </image>
-    </view>
-  </view>
 </view>

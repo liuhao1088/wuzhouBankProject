@@ -5,47 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
+    detailsaList: [
+      'https://img11.360buyimg.com/ddimg/jfs/t1/149345/32/10341/51066/5f815704E00b5b6b3/df3820a2523bac80.png',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/142855/21/10334/46742/5f815d43E71959b3a/c36d9f9f60a45ae8.png'
+    ]
   },
-  fanhuidj:function(){
-    wx.reLaunch({
-       url: "../index/index"
-     })
-  },
+  toDetails(event) {
+    let id = event.currentTarget.id;
+    console.log(id);
+    if (id === '0') {
+      wx.navigateTo({
+        url: "/pages/detailsazOne/detailsazOne"
+      })
+    } else {
+      wx.navigateTo({
+        url: "/pages/detailsazTwo/detailsazTwo"
+      })
 
-  detailsazTwodj:function(){
-    wx.navigateTo({
-      url: "../detailsazTwo/detailsazTwo"
-    })
+    }
   },
-
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-  },
- 
-  
-  detailsazOnedj:function(){
-    wx.navigateTo({
-      url: "../detailsazOne/detailsazOne"
-    })
-  },
+  // detailsazTwodj:function(){
+  //   wx.navigateTo({
+  //     url: "../detailsazTwo/detailsazTwo"
+  //   })
+  // },
+  // detailsazOnedj:function(){
+  //   wx.navigateTo({
+  //     url: "../detailsazOne/detailsazOne"
+  //   })
+  // },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var windowHeight = wx.getSystemInfoSync().windowHeight;
-    console.log(windowHeight);
-    if(windowHeight>800){
-      this.setData({
-        top: "6%"
-      })
-    }else{
-      this.setData({
-        top: "4%"
-      })
-    }
+
   },
 
   /**
@@ -61,11 +54,11 @@ Page({
   onShow: function () {
     wx.showShareMenu({
 
-      withShareTicket:true,
-      
-      menus:['shareAppMessage','shareTimeline']
-      
-      })
+      withShareTicket: true,
+
+      menus: ['shareAppMessage', 'shareTimeline']
+
+    })
   },
 
   /**

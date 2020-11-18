@@ -27,7 +27,6 @@ Page({
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
     var maxHeight  = windowHeight;
-    console.log(maxHeight);
     if(windowHeight>800){
       this.setData({
         top: "6%",
