@@ -4,7 +4,7 @@
     </image>
   </view>
 
-  <view class="tag_maxdiv" wx:for="{{detailsaList}}" wx:key="id">
+  <view class="tag_maxdiv"  wx:for="{{detailsaList}}" wx:key="id">
     <view class="img_div" id="{{index}}" bindtap="toDetails">
       <image mode="widthFix" src="{{item}}">
       </image>
