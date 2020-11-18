@@ -3,69 +3,16 @@
   float: left;
 }
 
-.img {
-  width: 100%;
-  float: left;
-}
+
 
 .img_div{
   width: 100%;
   border:0rpx white solid;
-  border-radius: 12rpx;
-  margin-top: 40rpx;
 }
 
 image {
   width: 100%;
   height: 100%;
-}
-
-.yxzc_div{
-  width: 100%;
-  background-color: #202020;
-  float: left;
-}
-
-
-/* 返回 */
-
-.nav_div {
-  position: fixed;
-  left: 20rpx;
-  width: 180rpx;
-  height: 60rpx;
-  border-radius: 40rpx;
-  background-color: white;
-  opacity: 0.6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav_maxdiv {
-  width: 70%;
-  height: 100%;
-  border: 0rpx solid black;
-}
-
-.nav_iocndiv {
-  float: left;
-  height: 100%;
-  width: calc(100%/2);
-  line-height: 74rpx;
-  font-size: 44rpx;
+  vertical-align: middle;
   text-align: center;
-
-}
-
-.iocn {
-  height: 100%;
-  float: left;
-}
-
-.side {
-  float: right;
-  height: 50%;
-  margin-top: 16rpx;
-  border: 1rpx solid #83919D;
 }

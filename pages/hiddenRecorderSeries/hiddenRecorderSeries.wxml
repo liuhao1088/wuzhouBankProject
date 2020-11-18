@@ -1,39 +1,36 @@
 <view class="container">
-  <view class="tag_maxdiv" style="width: 100%;">
-    <view class="img">
-      <image mode="widthFix"
-        src="https://dingyue.ws.126.net/2020/1010/6ffe6890p00qhzggk00xmc000qc00slm.png">
-      </image>
-    </view>
+  <view class="tag_maxdiv" style="width: 100%;padding-bottom: 60rpx;">
+    <image mode="widthFix" src="https://dingyue.ws.126.net/2020/1010/6ffe6890p00qhzggk00xmc000qc00slm.png">
+    </image>
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div"  bindtap="detailsawOnedj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawOnedj">
+      <image mode="widthFix"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/140467/29/10488/64565/5f815fb0Ec0ca3787/a8d0d5828afe14a9.png">
       </image>
     </view>
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawTwodj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawTwodj">
+      <image mode="widthFix"
         src="https://img10.360buyimg.com/ddimg/jfs/t1/126821/6/14588/55121/5f815fc3Eaa17bfd8/ed210455d2fee0d5.png">
       </image>
     </view>
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawThreedj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawThreedj">
+      <image mode="widthFix"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/149676/6/14951/73109/5fb4b8f0E6ba4f342/e1e8bc9593dfba44.png">
       </image>
     </view>
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawFivesdj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawFivesdj">
+      <image mode="widthFix"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/137883/32/15062/62921/5fb4b909E9383a53e/4e85d7ad6f537270.png">
       </image>
     </view>
@@ -41,40 +38,19 @@
 
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSixdj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawSixdj">
+      <image mode="widthFix"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/134790/7/11923/66382/5f815ffdE28a13f59/8e4e43efefd61404.png">
       </image>
     </view>
   </view>
 
   <view class="tag_maxdiv">
-    <view class="img_div" style="margin-top: 0rpx;" bindtap="detailsawSevendj">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+    <view class="img_div" bindtap="detailsawSevendj">
+      <image mode="widthFix"
         src="https://img13.360buyimg.com/ddimg/jfs/t1/153389/26/1859/53458/5f816014E5d64e30e/bd7631b09a5a512d.png">
       </image>
     </view>
   </view>
 
-
-
-
-
-
- 
 </view>
-<!-- 
-<view class="nav_div" style="top: {{top}};">
-  <view class="nav_maxdiv">
-    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
-      <view class="iocn">
-        <van-icon name="arrow-left" />
-      </view>
-      <view class="side"></view>
-
-    </view>
-    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
-      <van-icon name="wap-home-o" />
-    </view>
-  </view>
-</view> -->
