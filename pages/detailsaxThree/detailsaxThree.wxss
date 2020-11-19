@@ -1,7 +1,13 @@
 @import "/template/myTemplate.wxss";
-.container{
-  background-color: #03afef;
+page{
+  height: 100%;
 }
+
+.container{
+  background-color: #02b0ef;
+}
+
+
 
 
 

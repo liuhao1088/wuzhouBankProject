@@ -6,7 +6,7 @@ Page({
    */
   data: {
     item: {
-      url: 'https://dingyue.ws.126.net/2020/1010/7261ed62p00qhzjjl00z1c000qc01gum.png'
+      url: 'https://img10.360buyimg.com/ddimg/jfs/t1/127107/19/19159/664360/5fb5dab9E48f68542/82a862e2d748099f.jpg'
     },
   },
   /**
