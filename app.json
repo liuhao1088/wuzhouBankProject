@@ -1,33 +1,23 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/detailsaxTwo/detailsaxTwo",
     "pages/detailsaxOne/detailsaxOne",
     "pages/detailsawTwo/detailsawTwo",
     "pages/detailsazOne/detailsazOne",
     "pages/detailsazTwo/detailsazTwo",
-    "pages/index/index",
     "pages/smartStreamingSeries/smartStreamingSeries",
-    
-   
     "pages/truckReconrderSeries/truckReconrderSeries",
     "pages/hiddenRecorderSeries/hiddenRecorderSeries",
-    
     "pages/hdRecorderSeries/hdRecorderSeries",
     "pages/detailsaEleven/detailsaEleven",
     "pages/detailsaxThree/detailsaxThree",
-    
-    
-    
-   
     "pages/detailsawThree/detailsawThree",
     "pages/detailsawFives/detailsawFives",
     "pages/detailsawSix/detailsawSix",
     "pages/detailsawSeven/detailsawSeven",
     "pages/detailsaaTen/detailsaaTen",
     "pages/detailsawOne/detailsawOne"
-    
-    
-    
   ],
   "window":{
     "backgroundTextStyle":"light",
