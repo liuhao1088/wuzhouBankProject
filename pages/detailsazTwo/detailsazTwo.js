@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"60%"
+    item: {
+      topUrl: 'https://p.pstatp.com/origin/137b500020f2d5f31a4d6',
+      top:'58%',
+      videoUrl:'https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CZ2.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602328638;33138328638&q-key-time=1602328638;33138328638&q-header-list=&q-url-param-list=&q-signature=7d2419febdd3f41ee8a550de80b6a5dc08964936',
+      detailUrl:'https://p.pstatp.com/origin/137b10001cd0f8521e85f'
+
+    },
   },
   fanhuidj:function(){
     wx.redirectTo({
@@ -24,14 +30,15 @@ Page({
    */
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
-    var maxHeight  = windowHeight;
+    let top = ['item.top'];
+    console.log(top)
     if(windowHeight>800){
       this.setData({
-        top: "48%"
+        ['item.top']: '48%'
       })
     }else{
       this.setData({
-        top: "60%"
+        ['item.top']: '58%'
       })
     }
   },

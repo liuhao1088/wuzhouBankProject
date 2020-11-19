@@ -5,20 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%",
-    height:"",
-    videoHeight:''
-  },
-  fanhuidj:function(){
-    wx.redirectTo({
-      url: "../smartStreamingSeries/smartStreamingSeries"
-    })
-  },
+    item: {
+      topUrl: 'https://p.pstatp.com/origin/138390001d59a50dc9bf1',
+      top:'',
+      videoUrl:'https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CX2%E5%A4%96%E8%A7%82.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602328969;33138328969&q-key-time=1602328969;33138328969&q-header-list=&q-url-param-list=&q-signature=426790f1421ba62142d522be034cc554b97b066b',
+      detailUrl:'https://p.pstatp.com/origin/138320001c59ee8f5f960'
 
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
+    },
   },
  
   /**
@@ -26,17 +19,15 @@ Page({
    */
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
-    var maxHeight  = windowHeight;
-    console.log(maxHeight);
+    let top = ['item.top'];
+    console.log(top)
     if(windowHeight>800){
       this.setData({
-        top: "6%",
-        height:maxHeight+"px"
+        ['item.top']: '48%'
       })
     }else{
       this.setData({
-        top: "4%",
-        height:maxHeight+"px"
+        ['item.top']: '58%'
       })
     }
   },

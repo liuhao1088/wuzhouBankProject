@@ -1,15 +1,2 @@
-<view class="container">
-  <view class="header">
-    <image mode="widthFix" src="https://p.pstatp.com/origin/1389600009e16f3bf20e9">
-    </image>
-  </view>
-  <view class="video_div" style="top: {{top}};">
-      <video class="video_nr"
-        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E4%BA%94%E6%B4%B2%E8%A1%8CZ2.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602328638;33138328638&q-key-time=1602328638;33138328638&q-header-list=&q-url-param-list=&q-signature=7d2419febdd3f41ee8a550de80b6a5dc08964936"
-        object-fit="cover"></video>
-    </view>
-
-
-  <image mode="widthFix" src="https://p.pstatp.com/origin/137f700019bf1dd62fcde">
-  </image>
-</view>
+<import src="/template/myTemplate.wxml"></import>
+<template is="video" data="{{...item}}"></template>

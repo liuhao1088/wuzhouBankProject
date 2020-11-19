@@ -1,14 +1,16 @@
-.header{
-  width: 100%;
-  float: left;
-  position: relative;
-}
-
+@import "/template/myTemplate.wxss";
+/*
 image {
   height: 100%;
   width: 100%;
   vertical-align: middle;
   text-align: center;
+} 
+
+.header{
+  width: 100%;
+  float: left;
+  position: relative;
 }
 
 .video_div {
@@ -24,7 +26,8 @@ image {
   width: 90%;
   height: 100%;
   float: left;
-  height: 380rpx
+  height: 400rpx;
+  border-radius: 20rpx;
 }
 
-
+ */

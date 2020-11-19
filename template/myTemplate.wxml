@@ -4,3 +4,19 @@
     </image>
   </view>
 </template>
+
+<template name="video">
+  <view class="container">
+    <view class="header">
+      <image mode="widthFix" src="{{topUrl}}">
+      </image>
+    </view>
+    <view class="video_div" style="top: {{top}};">
+      <video class="video_nr"
+        src="{{videoUrl}}"
+        object-fit="cover"></video>
+    </view>
+    <image mode="widthFix" src="{{detailUrl}}">
+    </image>
+  </view>
+</template>
