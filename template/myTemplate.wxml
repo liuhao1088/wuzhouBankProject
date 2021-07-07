@@ -11,7 +11,7 @@
       <image mode="widthFix" src="{{topUrl}}">
       </image>
     </view>
-    <view class="video_div" style="top: {{top}};">
+    <view class="video_div" style="top: {{top}};" wx:if="{{videoUrl}}">
       <video class="video_nr"
         src="{{videoUrl}}"
         object-fit="cover"></video>
